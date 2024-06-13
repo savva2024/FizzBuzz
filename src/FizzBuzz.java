@@ -10,7 +10,7 @@ public class FizzBuzz {
 			// ブロック
 			// if文：3と5の両方で割り切れる数値の場合、「FizzBuzz」と表示する
 			if ((number % 3) == 0 && (number % 5) == 0) {
-			System.out.println("FizzBizz");
+				System.out.println("FizzBizz");
 			// elseif文：3で割り切れる数値の場合、「Fizz」と表示する
 			}else if ((number % 3) == 0) {
 				System.out.println("Fizz");
