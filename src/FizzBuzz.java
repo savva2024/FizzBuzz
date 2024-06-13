@@ -7,7 +7,7 @@ public class FizzBuzz {
 		// 条件式：numberが100未満の場合、ブロックの処理を行う
 		// 変化式：ブロックの処理後に、numberをインクリメント
 		for (int number = 1; number <= 100; number++) {
-    	// ブロック
+			// ブロック
 			// if文：3と5の両方で割り切れる数値の場合、「FizzBuzz」と表示する
 			if ((number % 3) == 0 && (number % 5) == 0) {
 			System.out.println("FizzBizz");
@@ -19,10 +19,9 @@ public class FizzBuzz {
 				System.out.println("Bizz");
 			// それ以外の数値は、その数値をそのまま表示する
 			}else {
-           		System.out.println(number);
-           		
-        	}
-        }
+				System.out.println(number);
+				
+			}
+		}
 	}
-
 }
